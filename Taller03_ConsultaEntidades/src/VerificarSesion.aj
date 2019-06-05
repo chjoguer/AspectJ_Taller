@@ -19,7 +19,7 @@ public aspect VerificarSesion{
 			System.out.println("Bienvenido");
 			Entidad.mensaje.setVisible(true);
 		}else {
-			System.out.println("Inicie Sesion por favor");
+			System.out.println("Debe de iniciar Sesion por favor");
 		}
 	}
 }
