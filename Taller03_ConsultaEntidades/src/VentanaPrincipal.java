@@ -74,6 +74,7 @@ public class VentanaPrincipal {
 					btnCerrarSesion.setVisible(true);
 				}
 				else {
+					System.out.println("---------------------------");
 					System.out.println("Sesion ya ha sido iniciada");
 				}
 				
